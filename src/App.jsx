@@ -14,21 +14,11 @@ export default function App() {
           <button className="button">Add Recipe</button>
         </div>
         <div className="body">
-          <table>
-            <thead>
-              <tr>
-                <th>Day</th>
-                <th>Recipe Name</th>
-                <th>Primary Ingredient</th>
-                <th>Ingredients Needed</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Item 1</td>
-              </tr>
-            </tbody>
-          </table>
+          <div id="es-initial" className="empty-state">
+             <img className="empty-state-image" src="public/kitchen.png" width="125"/>
+             <h3 className="empty-state-title">Create a Menu</h3>
+             <p className="empty-state-subtitle">Input the number of days and click 'Create Menu' to get started.</p>
+          </div>
         </div>
       </div>
       <div className="footer"></div>
