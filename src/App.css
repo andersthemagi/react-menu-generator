@@ -12,11 +12,13 @@
 }
 
 .empty-state {
-  margin-top: 16px;
+  margin-top: 24px;
   text-align: center;
 }
 
 main {
+  height: 100vh;
+  min-width: 360px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
